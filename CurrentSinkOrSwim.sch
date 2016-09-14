@@ -231,7 +231,7 @@ P 6050 2400
 F 0 "U?" H 6350 2500 50  0000 C CNN
 F 1 "LM2931D-R" H 6050 3000 50  0000 C CNN
 F 2 "" H 6050 2400 50  0000 C CNN
-F 3 "" H 6050 2400 50  0000 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/ae/39/36/68/10/73/4f/bb/CD00001885.pdf/files/CD00001885.pdf/jcr:content/translations/en.CD00001885.pdf" H 6050 2400 50  0001 C CNN
 	1    6050 2400
 	-1   0    0    -1  
 $EndComp
