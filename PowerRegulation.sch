@@ -121,6 +121,10 @@ F 3 "" H 7300 4350 50  0000 C CNN
 	1    7300 4350
 	-1   0    0    -1  
 $EndComp
+Text GLabel 8200 3750 2    60   Input ~ 0
+2.7V
+Text HLabel 5450 3750 0    60   Input ~ 0
+Vin
 Wire Wire Line
 	8200 3750 6950 3750
 Connection ~ 7300 3750
@@ -138,12 +142,7 @@ Wire Wire Line
 	7650 4500 5650 4500
 Connection ~ 7300 4500
 Wire Wire Line
-	6650 4350 6350 4350
-Connection ~ 6550 4350
-Connection ~ 6450 4350
-Wire Wire Line
 	6500 4500 6500 4350
-Connection ~ 6500 4350
 Wire Wire Line
 	5650 4500 5650 4300
 Connection ~ 6500 4500
@@ -159,8 +158,9 @@ Connection ~ 5950 4500
 Wire Wire Line
 	6050 3750 5450 3750
 Connection ~ 5650 3750
-Text GLabel 8200 3750 2    60   Input ~ 0
-2.7V
-Text HLabel 5450 3750 0    60   Input ~ 0
-Vin
+Wire Wire Line
+	6350 4350 6650 4350
+Connection ~ 6550 4350
+Connection ~ 6500 4350
+Connection ~ 6450 4350
 $EndSCHEMATC

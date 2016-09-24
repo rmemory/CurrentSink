@@ -160,8 +160,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 1550 4450 3750
 Wire Wire Line
-	6850 1750 6850 3200
-Wire Wire Line
 	5300 2500 5300 3100
 Wire Wire Line
 	4450 2500 5300 2500
@@ -203,4 +201,18 @@ Wire Wire Line
 	6850 4800 7400 4800
 Text HLabel 7400 4800 2    60   Input ~ 0
 Current_Sink-
+$Comp
+L CONN_01X01 P201
+U 1 1 57E5EC8F
+P 7750 2900
+F 0 "P201" H 7750 3000 50  0000 C CNN
+F 1 "CONN_01X01" V 7850 2900 50  0000 C CNN
+F 2 "current:FA-T220-38E-ND" H 7750 2900 50  0001 C CNN
+F 3 "http://www.ohmite.com/cat/sink_f_r.pdf" H 7750 2900 50  0001 C CNN
+F 4 "FA-T220-38E-ND" H 7750 2900 60  0001 C CNN "MPN"
+	1    7750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1750 6850 3200
 $EndSCHEMATC

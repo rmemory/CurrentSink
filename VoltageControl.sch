@@ -150,8 +150,8 @@ P 4350 4100
 F 0 "D301" H 4350 4200 50  0000 C CNN
 F 1 "D" H 4350 4000 50  0000 C CNN
 F 2 "Diodes_SMD:SMB-SMC_Universal_Handsoldering" H 4350 4100 50  0001 C CNN
-F 3 "http://www.fairchildsemi.com/datasheets/1N/1N914BWT.pdf" H 4350 4100 50  0001 C CNN
-F 4 "1N914BWT" H 4350 4100 60  0001 C CNN "MPN"
+F 3 "http://www.bourns.com/docs/Product-Datasheets/CD214B-R350_R31000.pdf" H 4350 4100 50  0001 C CNN
+F 4 "CD214B-R3600" H 4350 4100 60  0001 C CNN "MPN"
 	1    4350 4100
 	1    0    0    -1  
 $EndComp
