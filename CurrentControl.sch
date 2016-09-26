@@ -49,9 +49,10 @@ L LMV358 U201
 U 1 1 57DA1673
 P 5400 3400
 F 0 "U201" H 5350 3600 50  0000 L CNN
-F 1 "LMV358IDT" H 5350 3150 50  0000 L CNN
+F 1 "LMV358" H 5350 3150 50  0000 L CNN
 F 2 "SMD_Packages:SOIC-8-N" H 5400 3400 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 5400 3400 50  0001 C CNN
+F 4 "LMV358IDT" H 5400 3400 60  0001 C CNN "MPN"
 	1    5400 3400
 	1    0    0    -1  
 $EndComp
