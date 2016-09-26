@@ -3,7 +3,7 @@
   (general
     (links 41)
     (no_connects 41)
-    (area 102.286999 46.406999 148.919001 104.723001)
+    (area 102.286999 46.406999 148.919001 148.816)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -140,7 +140,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 57E14D0C)
-    (at 126.228571 124.371)
+    (at 131.064 80.772)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /57DA07A1/57DA16A4)
@@ -198,7 +198,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 57E14D18)
-    (at 122.898571 145.641)
+    (at 122.428 85.344)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /57DA0C84/57DB72CA)
@@ -227,7 +227,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 57E14D1E)
-    (at 118.648571 145.641)
+    (at 111.506 85.852)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /57DA0C84/57DB72D1)
@@ -454,7 +454,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 57E14D44)
-    (at 132.968571 122.471)
+    (at 137.16 80.772)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /57DA07A1/57DA1688)
@@ -483,7 +483,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 57E14D4A)
-    (at 130.478571 128.721)
+    (at 137.16 85.598)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /57DA07A1/57DA1A1C)
@@ -631,7 +631,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 57E14D68)
-    (at 114.398571 139.391)
+    (at 127.860571 85.289)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /57DA0C84/57DB72D8)
@@ -660,7 +660,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 57E14D6E)
-    (at 114.398571 145.641)
+    (at 117.348 85.598)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /57DA0C84/57DB72E6)
@@ -689,7 +689,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 57E14D74)
-    (at 118.791428 139.391)
+    (at 132.253428 85.289)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /57DA0C84/57DB72ED)
@@ -718,7 +718,7 @@
   )
 
   (module Potentiometers:Potentiometer_WirePads_largePads (layer F.Cu) (tedit 5446FD75) (tstamp 57E14D7B)
-    (at 105.823502 115.97858)
+    (at 105.918 90.932)
     (descr "Potentiometer, Wire Pads only, RevA, 30 July 2010,")
     (tags "Potentiometer, Wire Pads only, RevA, 30 July 2010,")
     (path /57DA07A1/57DA169D)
@@ -778,7 +778,7 @@
   )
 
   (module SMD_Packages:SOIC-8-N (layer F.Cu) (tedit 0) (tstamp 57E14D8E)
-    (at 138.43 83.312)
+    (at 144.272 83.312)
     (descr "Module Narrow CMS SOJ 8 pins large")
     (tags "CMS SOJ")
     (path /57DA07A1/57DA1673)
@@ -820,7 +820,7 @@
   )
 
   (module SMD_Packages:SOIC-8-N (layer F.Cu) (tedit 0) (tstamp 57E14DA6)
-    (at 107.57 140.2625)
+    (at 115.316 92.456)
     (descr "Module Narrow CMS SOJ 8 pins large")
     (tags "CMS SOJ")
     (path /57DA0C84/57DB72DF)
