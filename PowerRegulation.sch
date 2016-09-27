@@ -93,9 +93,10 @@ L LM2931D-R U401
 U 1 1 57DB72DF
 P 6500 4200
 F 0 "U401" H 6800 4300 50  0000 C CNN
-F 1 "LM2931D-R" H 6500 4800 50  0000 C CNN
+F 1 "LM2931" H 6500 4800 50  0000 C CNN
 F 2 "SMD_Packages:SOIC-8-N" H 6500 4200 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/ae/39/36/68/10/73/4f/bb/CD00001885.pdf/files/CD00001885.pdf/jcr:content/translations/en.CD00001885.pdf" H 6500 4200 50  0001 C CNN
+F 4 "LM2931D-R" H 6500 4200 60  0001 C CNN "MPN"
 	1    6500 4200
 	1    0    0    -1  
 $EndComp

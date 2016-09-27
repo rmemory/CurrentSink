@@ -108,8 +108,9 @@ U 1 1 57DA169D
 P 4300 3750
 F 0 "RV201" H 4300 3670 50  0000 C CNN
 F 1 "POT" H 4300 3750 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_WirePads_largePads" H 4300 3750 50  0001 C CNN
-F 3 "" H 4300 3750 50  0000 C CNN
+F 2 "current:P090L-02F25BR10K" H 4300 3750 50  0001 C CNN
+F 3 "http://www.bitechnologies.com/pdfs/p090.pdf" H 4300 3750 50  0001 C CNN
+F 4 "P090L-02F25BR10K" H 4300 3750 60  0001 C CNN "MPN"
 	1    4300 3750
 	0    1    1    0   
 $EndComp

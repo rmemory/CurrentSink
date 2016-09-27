@@ -50,8 +50,9 @@ U 1 1 57C1F29D
 P 8350 1550
 F 0 "P103" H 8350 1700 50  0000 C CNN
 F 1 "CONN_01X02" V 8450 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 8350 1550 50  0001 C CNN
-F 3 "" H 8350 1550 50  0000 C CNN
+F 2 "current:Terminal_Block_200_mil" H 8350 1550 50  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf" H 8350 1550 50  0001 C CNN
+F 4 "OSTTC022162" H 8350 1550 60  0001 C CNN "MPN"
 	1    8350 1550
 	1    0    0    -1  
 $EndComp
@@ -61,7 +62,7 @@ U 1 1 57D502F2
 P 6950 1000
 F 0 "P102" H 6950 1200 50  0000 C CNN
 F 1 "CONN_01X03" V 7050 1000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 6950 1000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6950 1000 50  0001 C CNN
 F 3 "" H 6950 1000 50  0000 C CNN
 	1    6950 1000
 	0    -1   -1   0   
@@ -72,8 +73,9 @@ U 1 1 57D5050E
 P 2700 1250
 F 0 "P101" H 2700 1400 50  0000 C CNN
 F 1 "CONN_01X02" V 2800 1250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2700 1250 50  0001 C CNN
-F 3 "" H 2700 1250 50  0000 C CNN
+F 2 "current:Terminal_Block_200_mil" H 2700 1250 50  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf" H 2700 1250 50  0001 C CNN
+F 4 "OSTTC022162" H 2700 1250 60  0001 C CNN "MPN"
 	1    2700 1250
 	-1   0    0    -1  
 $EndComp
