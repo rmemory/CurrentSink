@@ -143,13 +143,13 @@ Wire Wire Line
 Wire Wire Line
 	7450 1500 7450 5350
 Wire Wire Line
-	6050 3600 7450 3600
+	6000 3600 7450 3600
 Wire Wire Line
-	6050 4100 7800 4100
+	6000 4100 7800 4100
 Wire Wire Line
 	6950 1800 6000 1800
 Wire Wire Line
-	7450 5350 5950 5350
+	7450 5350 6000 5350
 Connection ~ 7450 3600
 Connection ~ 7800 4100
 Wire Wire Line
