@@ -73,7 +73,7 @@ P 2750 5550
 F 0 "RV301" H 2750 5470 50  0000 C CNN
 F 1 "10k" H 2750 5550 50  0000 C CNN
 F 2 "current:P090L-02F25BR10K" H 2750 5550 50  0001 C CNN
-F 3 "" H 2750 5550 50  0000 C CNN
+F 3 "http://www.bitechnologies.com/pdfs/p090.pdf" H 2750 5550 50  0001 C CNN
 	1    2750 5550
 	0    1    1    0   
 $EndComp
