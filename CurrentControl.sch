@@ -46,14 +46,14 @@ Comment4 ""
 $EndDescr
 $Comp
 L LMV358 U201
-U 1 1 57DA1673
+U 2 1 57DA1673
 P 5400 3400
 F 0 "U201" H 5350 3600 50  0000 L CNN
 F 1 "LMV358" H 5350 3150 50  0000 L CNN
 F 2 "SMD_Packages:SOIC-8-N" H 5400 3400 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 5400 3400 50  0001 C CNN
 F 4 "LMV358IDT" H 5400 3400 60  0001 C CNN "MPN"
-	1    5400 3400
+	2    5400 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -115,25 +115,34 @@ F 4 "P090L-02F25BR10K" H 4450 4500 60  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C201
-U 1 1 57DA16A4
-P 4900 2750
-F 0 "C201" H 4925 2850 50  0000 L CNN
-F 1 "C" H 4925 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4938 2600 50  0001 C CNN
-F 3 "" H 4900 2750 50  0000 C CNN
-	1    4900 2750
-	1    0    0    -1  
+L R R202
+U 1 1 57DA1A1C
+P 6050 3400
+F 0 "R202" V 6130 3400 50  0000 C CNN
+F 1 "1k" V 6050 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5980 3400 50  0001 C CNN
+F 3 "" H 6050 3400 50  0000 C CNN
+	1    6050 3400
+	0    1    1    0   
 $EndComp
+Text GLabel 3550 1550 0    60   Input ~ 0
+2.7V
+Text HLabel 7350 1750 2    60   Input ~ 0
+Current_Sink+
+Text HLabel 7350 1500 2    60   Input ~ 0
+FetGate
+Text HLabel 7400 4800 2    60   Input ~ 0
+Current_Sink-
 $Comp
-L GND #PWR04
-U 1 1 57DA16AB
-P 4900 2900
-F 0 "#PWR04" H 4900 2650 50  0001 C CNN
-F 1 "GND" H 4900 2750 50  0000 C CNN
-F 2 "" H 4900 2900 50  0000 C CNN
-F 3 "" H 4900 2900 50  0000 C CNN
-	1    4900 2900
+L CONN_01X01 P201
+U 1 1 57E5EC8F
+P 7750 2900
+F 0 "P201" H 7750 3000 50  0000 C CNN
+F 1 "CONN_01X01" V 7850 2900 50  0000 C CNN
+F 2 "current:FA-T220-38E-ND" H 7750 2900 50  0001 C CNN
+F 3 "http://www.ohmite.com/cat/sink_f_r.pdf" H 7750 2900 50  0001 C CNN
+F 4 "FA-T220-38E-ND" H 7750 2900 60  0001 C CNN "MPN"
+	1    7750 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -158,63 +167,29 @@ Wire Wire Line
 	4450 1550 4450 3750
 Wire Wire Line
 	5300 2500 5300 3100
-Wire Wire Line
-	4450 2500 5300 2500
 Connection ~ 4450 2500
-Wire Wire Line
-	4900 2600 4900 2500
-Connection ~ 4900 2500
-$Comp
-L R R202
-U 1 1 57DA1A1C
-P 6050 3400
-F 0 "R202" V 6130 3400 50  0000 C CNN
-F 1 "1k" V 6050 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5980 3400 50  0001 C CNN
-F 3 "" H 6050 3400 50  0000 C CNN
-	1    6050 3400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5700 3400 5900 3400
 Wire Wire Line
 	6200 3400 6550 3400
-Text GLabel 3550 1550 0    60   Input ~ 0
-2.7V
 Wire Wire Line
 	3550 1550 4450 1550
 Wire Wire Line
 	6850 1750 7350 1750
-Text HLabel 7350 1750 2    60   Input ~ 0
-Current_Sink+
 Wire Wire Line
 	6400 3400 6400 1500
 Wire Wire Line
 	6400 1500 7350 1500
 Connection ~ 6400 3400
-Text HLabel 7350 1500 2    60   Input ~ 0
-FetGate
 Wire Wire Line
 	6850 4800 7400 4800
-Text HLabel 7400 4800 2    60   Input ~ 0
-Current_Sink-
-$Comp
-L CONN_01X01 P201
-U 1 1 57E5EC8F
-P 7750 2900
-F 0 "P201" H 7750 3000 50  0000 C CNN
-F 1 "CONN_01X01" V 7850 2900 50  0000 C CNN
-F 2 "current:FA-T220-38E-ND" H 7750 2900 50  0001 C CNN
-F 3 "http://www.ohmite.com/cat/sink_f_r.pdf" H 7750 2900 50  0001 C CNN
-F 4 "FA-T220-38E-ND" H 7750 2900 60  0001 C CNN "MPN"
-	1    7750 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 1750 6850 3200
 Wire Wire Line
-	4450 4350 4450 4050
+	4450 4050 4450 4350
 Wire Wire Line
 	4700 4200 4450 4200
 Connection ~ 4450 4200
+Wire Wire Line
+	4450 2500 5300 2500
 $EndSCHEMATC
