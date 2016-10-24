@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rmemory/Documents/kicad/github/csos/CurrentSinkOrSwim.sch</source>
+    <date>Sun 23 Oct 2016 08:14:26 PM MDT</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CurrentSinkOrSwim.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Current Control/" tstamps="/57DA07A1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CurrentControl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Voltage Control/" tstamps="/57DA0A56/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VoltageControl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Power Regulation/" tstamps="/57DA0C84/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerRegulation.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P103">
+      <value>CONN_01X02</value>
+      <footprint>current:Terminal_Block_200_mil</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf</datasheet>
+      <fields>
+        <field name="MPN">OSTTC022162</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C1F29D</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D502F2</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>CONN_01X02</value>
+      <footprint>current:Terminal_Block_200_mil</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/2015/09/osttcxx2162.pdf</datasheet>
+      <fields>
+        <field name="MPN">OSTTC022162</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D5050E</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LMV358</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf</datasheet>
+      <fields>
+        <field name="MPN">LMV358IDT</field>
+      </fields>
+      <libsource lib="CurrentSinkOrSwim" part="LMV358"/>
+      <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
+      <tstamp>57DA1673</tstamp>
+    </comp>
+    <comp ref="Q201">
+      <value>BUK9575</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BUK9575-100A.pdf</datasheet>
+      <fields>
+        <field name="MPN">BUK9575-100A,127</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
+      <tstamp>57DA1681</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
+      <tstamp>57DA1688</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>.1</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/acseries-222859.pdf</datasheet>
+      <fields>
+        <field name="MPN">AC01000001007JA100</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
+      <tstamp>57DA1690</tstamp>
+    </comp>
+    <comp ref="RV201">
+      <value>10k</value>
+      <footprint>current:P090L-02F25BR10K</footprint>
+      <datasheet>http://www.bitechnologies.com/pdfs/p090.pdf</datasheet>
+      <fields>
+        <field name="MPN">P090L-02F25BR10K</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
+      <tstamp>57DA169D</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
+      <tstamp>57DA1A1C</tstamp>
+    </comp>
+    <comp ref="P201">
+      <value>HeatSink</value>
+      <footprint>current:FA-T220-38E-ND</footprint>
+      <datasheet>http://www.ohmite.com/cat/sink_f_r.pdf</datasheet>
+      <fields>
+        <field name="MPN">FA-T220-38E-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
+      <tstamp>57E5EC8F</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>28.7k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
+      <tstamp>57DB8C91</tstamp>
+    </comp>
+    <comp ref="RV301">
+      <value>10k</value>
+      <footprint>current:P090L-02F25BR10K</footprint>
+      <datasheet>http://www.bitechnologies.com/pdfs/p090.pdf</datasheet>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
+      <tstamp>57DB8C9E</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>.1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
+      <tstamp>57DB8CA5</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>D</value>
+      <footprint>Diodes_SMD:SMB-SMC_Universal_Handsoldering</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/CD214B-R350_R31000.pdf</datasheet>
+      <fields>
+        <field name="MPN">CD214B-R3600</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
+      <tstamp>57DB8D2E</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
+      <tstamp>57DB8DD7</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>9k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
+      <tstamp>57DB8E45</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>.1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
+      <tstamp>57DB72CA</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>.1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
+      <tstamp>57DB72D1</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
+      <tstamp>57DB72D8</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>LM2931</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/ae/39/36/68/10/73/4f/bb/CD00001885.pdf/files/CD00001885.pdf/jcr:content/translations/en.CD00001885.pdf</datasheet>
+      <fields>
+        <field name="MPN">LM2931D-R</field>
+      </fields>
+      <libsource lib="CurrentSinkOrSwim" part="LM2931D-R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
+      <tstamp>57DB72DF</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>27k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
+      <tstamp>57DB72E6</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>21.6k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
+      <tstamp>57DB72ED</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CurrentSinkOrSwim" part="LM2931D-R">
+      <description>Linear Regulator +5V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2931D-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="ADJ" type="BiDi"/>
+        <pin num="5" name="INHB" type="power_out"/>
+        <pin num="6" name="GND" type="BiDi"/>
+        <pin num="7" name="GND" type="BiDi"/>
+        <pin num="8" name="VI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="CurrentSinkOrSwim" part="LMV358">
+      <description>Dual Op amp (low power)</description>
+      <docs>ns/lm158.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GDS">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="CurrentSinkOrSwim">
+      <uri>/home/rmemory/Documents/kicad/github/csos/CurrentSinkOrSwim.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Current Control/FetGate">
+      <node ref="R202" pin="1"/>
+      <node ref="D301" pin="2"/>
+      <node ref="Q201" pin="1"/>
+    </net>
+    <net code="2" name="/Current Control/Current_Sink+">
+      <node ref="R302" pin="1"/>
+      <node ref="Q201" pin="2"/>
+      <node ref="P102" pin="3"/>
+      <node ref="P103" pin="1"/>
+    </net>
+    <net code="3" name="/Power Regulation/Vin">
+      <node ref="U401" pin="8"/>
+      <node ref="C401" pin="1"/>
+      <node ref="P102" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="RV201" pin="2"/>
+      <node ref="R303" pin="2"/>
+      <node ref="P103" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="RV301" pin="2"/>
+      <node ref="P101" pin="2"/>
+      <node ref="R403" pin="2"/>
+      <node ref="U401" pin="7"/>
+      <node ref="U401" pin="6"/>
+      <node ref="R203" pin="2"/>
+      <node ref="U401" pin="3"/>
+      <node ref="U401" pin="2"/>
+      <node ref="R401" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="5" name="Net-(P101-Pad1)">
+      <node ref="P101" pin="1"/>
+      <node ref="P102" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R202-Pad2)">
+      <node ref="U201" pin="7"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="7" name="2.7V">
+      <node ref="R402" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="U401" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="U201" pin="8"/>
+      <node ref="R301" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R201-Pad2)">
+      <node ref="RV201" pin="1"/>
+      <node ref="U201" pin="5"/>
+      <node ref="R201" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Q201-Pad3)">
+      <node ref="Q201" pin="3"/>
+      <node ref="R203" pin="1"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="10" name="Net-(P201-Pad1)">
+      <node ref="P201" pin="1"/>
+    </net>
+    <net code="11" name="Net-(RV201-Pad3)">
+      <node ref="RV201" pin="3"/>
+    </net>
+    <net code="12" name="Net-(R302-Pad2)">
+      <node ref="R302" pin="2"/>
+      <node ref="R303" pin="1"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D301-Pad1)">
+      <node ref="D301" pin="1"/>
+      <node ref="U201" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R301-Pad2)">
+      <node ref="R301" pin="2"/>
+      <node ref="RV301" pin="1"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="15" name="Net-(RV301-Pad3)">
+      <node ref="RV301" pin="3"/>
+    </net>
+    <net code="16" name="Net-(R402-Pad2)">
+      <node ref="R402" pin="2"/>
+      <node ref="R403" pin="1"/>
+      <node ref="U401" pin="4"/>
+    </net>
+    <net code="17" name="Net-(R401-Pad1)">
+      <node ref="R401" pin="1"/>
+      <node ref="U401" pin="5"/>
+    </net>
+  </nets>
+</export>
