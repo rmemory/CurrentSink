@@ -63,7 +63,8 @@ P 6950 1000
 F 0 "P102" H 6950 1200 50  0000 C CNN
 F 1 "CONN_01X03" V 7050 1000 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6950 1000 50  0001 C CNN
-F 3 "" H 6950 1000 50  0000 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" H 6950 1000 50  0001 C CNN
+F 4 "68000-103HLF" H 6950 1000 60  0001 C CNN "MPN"
 	1    6950 1000
 	0    -1   -1   0   
 $EndComp

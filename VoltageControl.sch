@@ -51,7 +51,8 @@ P 2750 4600
 F 0 "R301" V 2830 4600 50  0000 C CNN
 F 1 "28.7k" V 2750 4600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2680 4600 50  0001 C CNN
-F 3 "" H 2750 4600 50  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 2750 4600 50  0001 C CNN
+F 4 "RC0805FR-0728K7L" V 2750 4600 60  0001 C CNN "MPN"
 	1    2750 4600
 	1    0    0    -1  
 $EndComp
@@ -84,7 +85,8 @@ P 3200 3450
 F 0 "C301" H 3225 3550 50  0000 L CNN
 F 1 ".1" H 3225 3350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3238 3300 50  0001 C CNN
-F 3 "" H 3200 3450 50  0000 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3200 3450 50  0001 C CNN
+F 4 "08055C104KAT2A" H 3200 3450 60  0001 C CNN "MPN"
 	1    3200 3450
 	1    0    0    -1  
 $EndComp
@@ -146,7 +148,8 @@ P 5400 4950
 F 0 "R303" V 5480 4950 50  0000 C CNN
 F 1 "1k" V 5400 4950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5330 4950 50  0001 C CNN
-F 3 "" H 5400 4950 50  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 5400 4950 50  0001 C CNN
+F 4 "RC0805JR-071KL" V 5400 4950 60  0001 C CNN "MPN"
 	1    5400 4950
 	1    0    0    -1  
 $EndComp
@@ -157,7 +160,8 @@ P 5400 4450
 F 0 "R302" V 5480 4450 50  0000 C CNN
 F 1 "9k" V 5400 4450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5330 4450 50  0001 C CNN
-F 3 "" H 5400 4450 50  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 5400 4450 50  0001 C CNN
+F 4 "RC0805FR-079K09L" V 5400 4450 60  0001 C CNN "MPN"
 	1    5400 4450
 	1    0    0    -1  
 $EndComp

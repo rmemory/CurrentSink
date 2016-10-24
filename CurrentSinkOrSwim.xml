@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/rmemory/Documents/kicad/github/csos/CurrentSinkOrSwim.sch</source>
-    <date>Sun 23 Oct 2016 08:14:26 PM MDT</date>
+    <date>Mon 24 Oct 2016 10:01:27 AM MDT</date>
     <tool>Eeschema 4.0.4+e1-6308~48~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -72,6 +72,10 @@
     <comp ref="P102">
       <value>CONN_01X03</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf</datasheet>
+      <fields>
+        <field name="MPN">68000-103HLF</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57D502F2</tstamp>
@@ -112,6 +116,10 @@
     <comp ref="R201">
       <value>68k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0768KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
       <tstamp>57DA1688</tstamp>
@@ -141,6 +149,10 @@
     <comp ref="R202">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-071KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Current Control/" tstamps="/57DA07A1/"/>
       <tstamp>57DA1A1C</tstamp>
@@ -159,6 +171,10 @@
     <comp ref="R301">
       <value>28.7k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-0728K7L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
       <tstamp>57DB8C91</tstamp>
@@ -174,6 +190,10 @@
     <comp ref="C301">
       <value>.1</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
       <tstamp>57DB8CA5</tstamp>
@@ -192,6 +212,10 @@
     <comp ref="R303">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-071KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
       <tstamp>57DB8DD7</tstamp>
@@ -199,6 +223,10 @@
     <comp ref="R302">
       <value>9k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-079K09L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Voltage Control/" tstamps="/57DA0A56/"/>
       <tstamp>57DB8E45</tstamp>
@@ -206,6 +234,10 @@
     <comp ref="C401">
       <value>.1</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
       <tstamp>57DB72CA</tstamp>
@@ -213,6 +245,10 @@
     <comp ref="C402">
       <value>.1</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
       <tstamp>57DB72D1</tstamp>
@@ -220,6 +256,10 @@
     <comp ref="R401">
       <value>0</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-070RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
       <tstamp>57DB72D8</tstamp>
@@ -238,13 +278,21 @@
     <comp ref="R402">
       <value>27k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805JT27K0</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
       <tstamp>57DB72E6</tstamp>
     </comp>
     <comp ref="R403">
-      <value>21.6k</value>
+      <value>21.5k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-0721K5L</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power Regulation/" tstamps="/57DA0C84/"/>
       <tstamp>57DB72ED</tstamp>

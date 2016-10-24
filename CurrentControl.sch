@@ -75,7 +75,8 @@ P 4450 3900
 F 0 "R201" V 4530 3900 50  0000 C CNN
 F 1 "68k" V 4450 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4380 3900 50  0001 C CNN
-F 3 "" H 4450 3900 50  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 4450 3900 50  0001 C CNN
+F 4 "RC0805JR-0768KL" V 4450 3900 60  0001 C CNN "MPN"
 	1    4450 3900
 	1    0    0    -1  
 $EndComp
@@ -121,7 +122,8 @@ P 6050 3400
 F 0 "R202" V 6130 3400 50  0000 C CNN
 F 1 "1k" V 6050 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5980 3400 50  0001 C CNN
-F 3 "" H 6050 3400 50  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 6050 3400 50  0001 C CNN
+F 4 "RC0805JR-071KL" V 6050 3400 60  0001 C CNN "MPN"
 	1    6050 3400
 	0    1    1    0   
 $EndComp

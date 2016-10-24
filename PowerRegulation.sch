@@ -62,7 +62,8 @@ P 5650 4150
 F 0 "C401" H 5675 4250 50  0000 L CNN
 F 1 ".1" H 5675 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5688 4000 50  0001 C CNN
-F 3 "" H 5650 4150 50  0000 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5650 4150 50  0001 C CNN
+F 4 "08055C104KAT2A" H 5650 4150 60  0001 C CNN "MPN"
 	1    5650 4150
 	-1   0    0    -1  
 $EndComp
@@ -73,7 +74,8 @@ P 7650 4350
 F 0 "C402" H 7675 4450 50  0000 L CNN
 F 1 ".1" H 7675 4250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7688 4200 50  0001 C CNN
-F 3 "" H 7650 4350 50  0000 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7650 4350 50  0001 C CNN
+F 4 "08055C104KAT2A" H 7650 4350 60  0001 C CNN "MPN"
 	1    7650 4350
 	-1   0    0    -1  
 $EndComp
@@ -84,7 +86,8 @@ P 5950 4200
 F 0 "R401" V 6030 4200 50  0000 C CNN
 F 1 "0" V 5950 4200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5880 4200 50  0001 C CNN
-F 3 "" H 5950 4200 50  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 5950 4200 50  0001 C CNN
+F 4 "RC0805JR-070RL" V 5950 4200 60  0001 C CNN "MPN"
 	1    5950 4200
 	-1   0    0    -1  
 $EndComp
@@ -107,7 +110,8 @@ P 7300 3900
 F 0 "R402" V 7380 3900 50  0000 C CNN
 F 1 "27k" V 7300 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 7230 3900 50  0001 C CNN
-F 3 "" H 7300 3900 50  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7300 3900 50  0001 C CNN
+F 4 "RMCF0805JT27K0" V 7300 3900 60  0001 C CNN "MPN"
 	1    7300 3900
 	-1   0    0    -1  
 $EndComp
@@ -116,9 +120,10 @@ L R R403
 U 1 1 57DB72ED
 P 7300 4350
 F 0 "R403" V 7380 4350 50  0000 C CNN
-F 1 "21.6k" V 7300 4350 50  0000 C CNN
+F 1 "21.5k" V 7300 4350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 7230 4350 50  0001 C CNN
-F 3 "" H 7300 4350 50  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 7300 4350 50  0001 C CNN
+F 4 "RC0805FR-0721K5L" V 7300 4350 60  0001 C CNN "MPN"
 	1    7300 4350
 	-1   0    0    -1  
 $EndComp
